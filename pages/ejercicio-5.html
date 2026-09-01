@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Homework Ejercicios 1</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <p class="return-Btn"><a href="../index.html">Volver</a></p>
+
+        <h1>Ejercicio 5: Calculadora Sencilla </h1>
+
+        <p>
+            <strong>Objetivo del ejercicio:</strong> 
+                Practicar la manipulación de formularios, eventos, y lógica básica de 
+                JavaScript. 
+        </p>
+
+        <p>
+            <strong>Ejercicio:</strong>
+                Crea una página con dos campos de entrada de números y cuatro botones: "Sumar", "Restar", 
+                "Multiplicar", y "Dividir".   
+
+                <br>● Al hacer clic en cualquiera de los botones, debe mostrarse el resultado de la operación en un 
+                    área de texto o debajo de los botones.  
+
+                <br>● Asegúrate de validar los datos para evitar errores (como división por cero o entradas vacías).
+        </p>
+
+        <div class="calculator">
+        
+        <input type="text" id="display" readonly placeholder="0">
+        
+        <div class="buttons">
+            <button class="btn-clear" data-action="clear">C</button>
+            <button class="btn-operator" data-value="/">/</button>
+            <button class="btn-operator" data-value="*">*</button>
+            <button class="btn-delete" data-action="delete">DEL</button>
+
+            <button data-value="7">7</button>
+            <button data-value="8">8</button>
+            <button data-value="9">9</button>
+            <button class="btn-operator" data-value="-">-</button>
+
+            <button data-value="4">4</button>
+            <button data-value="5">5</button>
+            <button data-value="6">6</button>
+            <button class="btn-operator" data-value="+">+</button>
+
+            <button data-value="1">1</button>
+            <button data-value="2">2</button>
+            <button data-value="3">3</button>
+            <button class="btn-equal" data-action="calculate">=</button>
+
+            <button class="btn-zero" data-value="0">0</button>
+            <button data-value=".">.</button>
+        </div>
+    </div>
+        
+    </div>
+    <script src="../js/ejercicio-5.js"></script>
+</body>
+</html>

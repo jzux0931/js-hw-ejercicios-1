@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Homework Ejercicios 1</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <p class="return-Btn"><a href="../index.html">Volver</a></p>
+
+        <h1>Ejercicio 7: Generador de Contraseñas Aleatorias</h1>
+
+        <p>
+            <strong>Objetivo del ejercicio:</strong> 
+                Practicar generación de cadenas aleatorias y uso de formularios. 
+        </p>
+
+        <p>
+            <strong>Ejercicio:</strong>
+                Crea una página con un campo de entrada para especificar la longitud de una contraseña y un botón que 
+                diga “Generar contraseña”.   
+
+                <br>
+                ● Al hacer clic en el botón, se debe mostrar una contraseña generada aleatoriamente usando 
+                letras, números y caracteres especiales.  
+                <br>
+                ● Si la longitud es menor a 4 o el campo está vacío, muestra un mensaje de error indicando que la 
+                longitud debe ser mayor o igual a 4. 
+        </p>
+
+        <div>
+            <input 
+                id="passwordLength" 
+                type="number" 
+                min="4"
+                max="12"
+                placeholder="..."
+            >
+            <button class="btn generatePassword">Generar contraseña</button>
+            <p class="passwordResult"></p>
+        </div>
+
+        
+    </div>
+    <script src="../js/ejercicio-7.js"></script>
+</body>
+</html>

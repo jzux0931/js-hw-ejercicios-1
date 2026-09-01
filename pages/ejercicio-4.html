@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Homework Ejercicios 1</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <p class="return-Btn"><a href="../index.html">Volver</a></p>
+
+        <h1>Ejercicio 4: Filtro de Búsqueda en Tiempo Real </h1>
+
+        <p>
+            <strong>Objetivo del ejercicio:</strong> 
+                Practicar la interacción entre eventos del DOM y lógica en JavaScript.
+        </p>
+
+        <p>
+            <strong>Ejercicio:</strong>
+                Crea una página con un campo de texto y una lista predefinida de elementos.  
+
+                <br>● Mientras el usuario escribe en el campo, la lista debe actualizarse 
+                    en tiempo real para mostrar solo los elementos que contienen el texto escrito. 
+        </p>
+
+        <p>
+            <strong>Ejemplo:</strong>
+                Si la lista contiene ["Perro", "Gato", "Pez"] y el usuario escribe "Ga", solo "Gato" debe 
+                quedar visible. 
+        </p>
+
+        <div>
+            <div class="searchContainer">
+                <input 
+                type="text" 
+                id="searchBar" 
+                placeholder="Buscar usuarios" 
+                title="Empieza a escribir para buscar">
+
+                <select id="searchType">
+                    <option value="all">Todo</option>
+                    <option value="firstName">Nombre</option>
+                    <option value="lastName">Apellido</option>
+                    <option value="position">Posición</option>
+                </select>
+            </div>
+            
+
+            <div class="resultsContainer">
+                <ul class="results"></ul>
+            </div>
+
+        </div>
+    </div>
+    <script src="../js/ejercicio-4.js"></script>
+</body>
+</html>
